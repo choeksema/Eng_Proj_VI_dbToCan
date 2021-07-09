@@ -32,8 +32,8 @@ int main(int argc, char **argv)
 		 << " liveview)" << endl;
 	
 	
-	while(1)
-	{
+	/*while(1)
+	{*/
 		/*string userIn = "";
 		cout << "Continue?";
 		cin >> userIn;*/
@@ -69,9 +69,9 @@ int main(int argc, char **argv)
 				return (3);
 			}
 		}
-	}
+	// }
 	
-	cout << "Exiting since something went wrong." << endl;
+	cout << "Exiting"/* since something went wrong."*/ << endl;
 	
 	return(0);
 }
